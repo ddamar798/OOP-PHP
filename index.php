@@ -6,14 +6,17 @@ class mobil {
     public $platNo;
 
         //method
-    
+    public function __construct($mrk,$pn){
+        $this->merek = $mrk;
+        $this->platNo = $pn;
+    }
 
         public function maju(){
-            return $this->merek. "Dengan plat nomor".$this->platNo."Telah maju";
+            return $this->merek. "Dengan plat nomor ".$this->platNo." Telah maju";
         }
 }
 
 
 //object
-$bmw = new mobil();
+$bmw = new mobil("BMW","0X777");
 echo $bmw->maju();
