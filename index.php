@@ -20,3 +20,6 @@ class mobil {
 //object
 $bmw = new mobil("BMW","0X777");
 echo $bmw->maju();
+
+$mustang = new mobil("Mustang","OX9999X");
+echo $mustang->maju();
