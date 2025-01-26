@@ -47,4 +47,5 @@ function tampilkan (kendaraan $avanza){
     return $avanza->maju();
 }
 
-echo tampilkan($rxking);
+echo tampilkan($rxking)."<br/>";
+echo tampilkan ($rxking )."\n";
