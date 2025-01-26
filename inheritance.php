@@ -10,4 +10,7 @@ class motor extends mobil{
 }
 
 $cbr = new motor("cbr","0XVC99");
-echo $cbr->mundur();
+echo $cbr->mundur()."\n";
+
+$vesmet = new motor ("Vespa Matic","0PX99X8");
+echo $vesmet->maju();
