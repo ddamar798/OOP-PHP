@@ -9,6 +9,7 @@ class motor extends mobil{
     }
 }
 
+//object
 $cbr = new motor("cbr","0XVC99");
 echo $cbr->mundur()."\n";
 
