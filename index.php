@@ -23,3 +23,6 @@ echo $bmw->maju();
 
 $mustang = new mobil("Mustang","OX9999X");
 echo $mustang->maju();
+
+$mclaren = new mobil("mclaren","0PK98X");
+echo $mclaren -> maju();
