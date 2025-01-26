@@ -22,7 +22,7 @@ $bmw = new mobil("BMW","0X777");
 echo $bmw->maju()."<br>";
 
 $mustang = new mobil("Mustang","OX9999X");
-echo $mustang->maju().'<br>';
+echo $mustang->maju()."\n";
 
 $mclaren = new mobil("mclaren","0PK98X");
 echo $mclaren -> maju().'<br>';
