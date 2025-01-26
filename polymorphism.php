@@ -1,6 +1,8 @@
 <?php
 
 //polymorphism
+
+//hanya sebagai jembatan untuk fungsi' yg ada di dalam class yg berbeda.
 interface kendaraan{
     public function maju();
 }
